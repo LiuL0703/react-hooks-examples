@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UseLocalStorage from './useLocalStorege';
+import UseHover from './useHover';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         </header>
         <h2>Use LocalStorage</h2>
         <UseLocalStorage />
+        <h2>Use Hover</h2>
+        <UseHover />
     </div>
   );
 }
