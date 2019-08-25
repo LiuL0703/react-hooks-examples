@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UseLocalStorage from './useLocalStorege';
 import UseHover from './useHover';
+import UseWindowSize from './useWindowSize';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <UseLocalStorage />
         <h2>Use Hover</h2>
         <UseHover />
+        <h2>Use WindowSize</h2>
+        <UseWindowSize/>
     </div>
   );
 }
