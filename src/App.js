@@ -3,6 +3,7 @@ import './App.css';
 import UseLocalStorage from './useLocalStorege';
 import UseHover from './useHover';
 import UseWindowSize from './useWindowSize';
+import UseKeyPress from './useKeyPress';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <UseHover />
         <h2>Use WindowSize</h2>
         <UseWindowSize/>
+        <h2>Use KeyPress</h2>
+        <UseKeyPress />
     </div>
   );
 }
