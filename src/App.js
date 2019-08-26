@@ -5,6 +5,7 @@ import UseHover from './useHover';
 import UseWindowSize from './useWindowSize';
 import UseKeyPress from './useKeyPress';
 import UseMemo from './useMemo';
+import UseDebounce from './useDebounce';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <UseKeyPress />
         <h2>Use Memo</h2>
         <UseMemo />
+        <h2>Use Debounce</h2>
+        <UseDebounce />
     </div>
   );
 }
