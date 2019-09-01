@@ -7,6 +7,7 @@ import UseKeyPress from './useKeyPress';
 import UseMemo from './useMemo';
 import UseDebounce from './useDebounce';
 import UseOnScreen from './useOnScreen';
+import UsePrevious from './usePrevious';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <UseMemo />
         <h2>Use Debounce</h2>
         <UseDebounce />
+        <h2>Use Previous</h2>
+        <UsePrevious />
         <h2>UseOnScreen</h2>
         <UseOnScreen />
     </div>
