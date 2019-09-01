@@ -8,6 +8,7 @@ import UseMemo from './useMemo';
 import UseDebounce from './useDebounce';
 import UseOnScreen from './useOnScreen';
 import UsePrevious from './usePrevious';
+import UseOnClickOutside from './useOnClickOutside';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <UseDebounce />
         <h2>Use Previous</h2>
         <UsePrevious />
+        <h2>Use OnClick OutSide</h2>
+        <UseOnClickOutside />
         <h2>UseOnScreen</h2>
         <UseOnScreen />
     </div>
