@@ -6,6 +6,7 @@ import UseWindowSize from './useWindowSize';
 import UseKeyPress from './useKeyPress';
 import UseMemo from './useMemo';
 import UseDebounce from './useDebounce';
+import UseOnScreen from './useOnScreen';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <UseMemo />
         <h2>Use Debounce</h2>
         <UseDebounce />
+        <h2>UseOnScreen</h2>
+        <UseOnScreen />
     </div>
   );
 }
