@@ -9,6 +9,7 @@ import UseDebounce from './useDebounce';
 import UseOnScreen from './useOnScreen';
 import UsePrevious from './usePrevious';
 import UseOnClickOutside from './useOnClickOutside';
+import UseAnimation from './useAnimation';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <header>
           <h1>Custom Hooks</h1>
         </header>
+        <h2>Use Animation</h2>
+        <UseAnimation />
         <h2>Use LocalStorage</h2>
         <UseLocalStorage />
         <h2>Use Hover</h2>
