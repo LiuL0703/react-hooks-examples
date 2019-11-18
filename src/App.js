@@ -10,6 +10,7 @@ import UseOnScreen from './useOnScreen';
 import UsePrevious from './usePrevious';
 import UseOnClickOutside from './useOnClickOutside';
 import UseAnimation from './useAnimation';
+import UseScript from './useScript';
 
 function App() {
   return (
@@ -36,7 +37,13 @@ function App() {
         <h2>Use OnClick OutSide</h2>
         <UseOnClickOutside />
         <h2>UseOnScreen</h2>
+        <br />
         <UseOnScreen />
+        <h2></h2>
+        <br />
+        <UseScript />
+        <br />
+        <br />
     </div>
   );
 }
